@@ -1,0 +1,24 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "A site to display projects, experience, and work that I've  done",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wadekb22/personal_website.git"
+  },
+  "author": "Wade Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wadekb22/personal_website/issues"
+  },
+  "homepage": "https://github.com/wadekb22/personal_website#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.0"
+  }
+}
