@@ -1,5 +1,10 @@
 
+
 // Changed themes
+
+//$card-border-width: medium;
+$card-border-color: #a9a9a9;
+$light: #f0f0f0;
 
 
 // Bootstrap import
@@ -11,4 +16,17 @@
 //
 // @import "../node_modules/bootstrap/scss/grid";
 
+
+
 // My styling
+a.no-underline {
+  text-decoration: none;
+}
+
+div.card:hover {
+  opacity: 0.8;
+}
+
+div.card-body>* {
+  color:$dark;
+}
