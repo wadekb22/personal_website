@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+    <title>Wade Bennett - Projects, experience, and more</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="row mt-3">
+            <div class="col">
+              <h1 class="text-center">Wade Bennett</h1>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col col-md-12 my-1">
+                <a href=../index.html class="text-secondary h4 no-underline">Who I am</a>
+            </div>
+            <div class="col col-md-12 my-1">
+                <a href=../portfolio.html class="text-secondary h4 no-underline">What I do</a>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-5">
+            <div class="col-8">
+              <img src="../assets/portrait.jpeg" class="img-fluid rounded" alt="Picture of Me">
+            </div>
+          </div>
+          <div class="row justify-content-center mt-4">
+            <div class="col-2">
+              <a href="https://www.linkedin.com/in/wadekbennett/">
+                <img src="../assets/linkedin.png" class=img-fluid alt="LinkedIn Button">
+              </a>
+            </div>
+            <div class="col-2">
+              <img src="../assets/github.jpg" class=img-fluid alt="GitHub Button">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="row mt-5">
+            <div class="col">
+              <h2>Computational approach to historical linguistics</h2>
+              <p class="lead">May 21, 2020</p>
+            </div>
+          </div>
+          <div class="row mt-4 mx-auto w-50">
+            <div class="col">
+              <img src="../assets/pie-map.png" class="img-fluid" alt="Map of Indo-European branches">
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <p>
+                The origin of a word has been a source of fascination for me since I started taking Latin in middle school. Every word I see I will subconsciously break down into its core parts, take a stab at its etymology, maybe conjecture at its evolution to its current meaning. This habit was reinforced when I learned Spanish and could see the Latin origins in the vocabulary and grammar. Several of my classics professors helped guide my fascination by reinforcing the idea that languages are alive, constantly evolving, splitting, dying off and merging.
+                <br><br>
+                Of particular interest to me is the Proto-Indo-European language (PIE), where most European and Western Asian languages have their root. Scholars have managed to partially reconstruct this language by finding morphological shifts in each daughter language and retracing those changes to find a hypothetical intersection. By doing so, many PIE words and grammatical patterns have already been reconstructed, mostly by hand. I’m curious however if a computation solution might be able to be developed to either reinforce the current reconstructions, identify oversights, or expand the current reconstructed catalogue.
+                <br><br>
+                On one hand this seems trivial: language reconstruction is a process of pattern recognition and extrapolation. Computers should be ideal for it. However, language evolution is deeply convoluted as well. Languages mix back and forth regularly. English, as one example, is a collage of German and French, with later additions from across the globe. Additionally, meanings of words evolve dramatically, even within the same language. The words host and hostile, while having practically opposite meanings both derive from the same word hospes in Latin, which itself has a double meaning of host and visitor. Finally, the phonetics of each language will be difficult to compare, as each language uses its own set of sounds.
+                <br><br>
+                I think the solution to this problem would require a way of quantifying the types of shifts that can occur. The IPA already has a partial solution by graphing vowels on a scale of closeness, backness, and roundness. Something similar would need to be devised for consonants. Also, syllable count and stress would need to be considered. If that could all be contained either in a graph or a function, one should be able to input a phoneme in one language and see how it would transition in the other. While this won’t be entirely accurate because of language mixing and culturally derived changes, it would be a good start.
+                <br><br>
+                My first step to create this system will be to try and create a software that takes an English word and outputs its variation according to the shift patterns. Those patterns can be taught by entering a set of basic word pairs. I’m planning to start by trying to take Standard English to either Middle English, Scots, or some accent of English. I’ll post updates as they come and will manage the project on GitHub.
+                <br><br>
+                <em>Photo Attribution:</em> <a href="https://commons.wikimedia.org/wiki/File:Indo-European_branches_map.png" title="via Wikimedia Commons">Hayden120</a> / <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
